@@ -1,0 +1,15 @@
+:root {
+  --docsifytabs-border-color: #ededed;
+  --docsifytabs-tab-highlight-color: purple;
+}
+
+.docsify-tabs__tab:hover {
+  cursor: pointer;
+  background: #ead8ff;
+  transition: 0.3s;
+}
+
+.docsify-tabs__tab--active:focus {
+  outline: none;
+  background: #ead8ff;
+}

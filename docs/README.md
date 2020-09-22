@@ -10,4 +10,10 @@ https://docsify.js.org
 - gitbook-cli にような UIUX のライブラリ
 - 日本語検索に対応
 
+---
+
+## Links
+
 [導入フロー](guide.md)
+
+[オプション](optin.md)

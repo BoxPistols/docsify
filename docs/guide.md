@@ -3,35 +3,47 @@
 ## ファイル構造サンプル
 
 ```
-docsify
+workspace
 └─ docs
    ├─ README.md
    ├─ guide.md
    └─ index.html
 ```
 
-## install
+## CLI install
 
 ### yarn
 
-```js
-$ yarn add -D docsify-cli
+install:
 
-# 初期化
-$ yarn docsify init ./docs
-
-# ローカルサーバ立ち上げ
-$ yarn docsify serve docs
 ```
+yarn add -D docsify-cli
+```
+
+初期化：
+
+```
+yarn docsify init ./docs
+```
+
+ローカルサーバー起動：（アドレス指定の場合）
+
+```
+yarn docsify serve docs -p 3003
+```
+
+---
 
 ### npx
 
-```js
-$ npx docsify-cli init ./docs
+初期化：
 
-$ npx docsify-cli serve docs
+```
+npx docsify-cli init ./docs
+```
 
-// has port no
-$ npx docsify-cli serve docs -p 3003
+ローカルサーバー起動：（アドレス指定の場合）
 
+```
+npx docsify-cli serve docs -p 3003
 ```
