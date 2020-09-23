@@ -1,15 +1,66 @@
+/* index logo */
+.sidebar > h1 {
+  text-align: left;
+  margin: 0 0 8px 48px;
+}
+a.app-name-link {
+  border: 1px solid #999;
+  padding: 4px 16px 6px;
+  border-radius: 2px;
+  font-size: 20px;
+}
+
+/* Tab design */
 :root {
   --docsifytabs-border-color: #ededed;
-  --docsifytabs-tab-highlight-color: purple;
+  --docsifytabs-tab-highlight-color: rgb(9, 129, 81);
 }
 
 .docsify-tabs__tab:hover {
   cursor: pointer;
-  background: #ead8ff;
+  background: #d4e5e0;
   transition: 0.3s;
 }
 
 .docsify-tabs__tab--active:focus {
   outline: none;
-  background: #ead8ff;
+  background: #d4e5e0;
+}
+
+/* Search */
+.search .input-wrap input {
+  max-width: 258px;
+  margin: 4px 0;
+  padding: 0 12px;
+  line-height: 36px;
+  font-size: 16px;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  border-radius: 24px;
+}
+.search .input-wrap input:focus {
+  outline: none;
+}
+
+.search .results-panel.show p.empty {
+  display: block;
+  position: absolute;
+  top: 48px;
+  color: crimson;
+  left: 11px;
+}
+
+.search .clear-button.show {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.search .clear-button.show svg {
+  transform: scale(1);
+  margin-bottom: -4px;
+  margin-left: -2px;
+}
+/* Side Nav */
+
+.sidebar .sidebar-nav {
+  padding: 8px 32px 40px;
 }
