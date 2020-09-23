@@ -1,8 +1,9 @@
-# css
+# CSS Design
 
 ## Atomic
 
-- layout
+- page
+- layout(template)
 - organism
 - molecule
 - atom

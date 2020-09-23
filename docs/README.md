@@ -7,13 +7,7 @@ https://docsify.js.org
 
 - ドキュメント静的サイトジェネレーター
 - Markdown ドキュメント
-- gitbook-cli にような UIUX のライブラリ
+- gitbook-cli のような UIUX のライブラリ
 - 日本語検索に対応
 
 ---
-<!--
-## Links
-
-[導入フロー](guide.md)
-
-[オプション](option.md) -->

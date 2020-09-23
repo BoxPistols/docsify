@@ -30,7 +30,7 @@ a.app-name-link {
 /* Search */
 .search .input-wrap input {
   max-width: 258px;
-  margin: 4px 0;
+  margin: 4px 0 0 8px;
   padding: 0 12px;
   line-height: 36px;
   font-size: 16px;
@@ -44,9 +44,9 @@ a.app-name-link {
 .search .results-panel.show p.empty {
   display: block;
   position: absolute;
-  top: 48px;
+  top: 32px;
+  left: 28px;
   color: crimson;
-  left: 11px;
 }
 
 .search .clear-button.show {
@@ -59,8 +59,17 @@ a.app-name-link {
   margin-bottom: -4px;
   margin-left: -2px;
 }
+
+.search .results-panel.show {
+  display: block;
+  padding: 14px;
+}
+
 /* Side Nav */
 
+.sidebar {
+  border-right: 1px solid rgb(197 215 207);
+}
 .sidebar .sidebar-nav {
   padding: 8px 32px 40px;
 }
